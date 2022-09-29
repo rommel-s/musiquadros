@@ -11,3 +11,10 @@ header {
   display: flex;
   align-items: center;
 }
+
+.playlists-container {
+  padding: 10vw;
+  height: 100vh;
+  width: 100%;
+  background-color: aquamarine;
+}

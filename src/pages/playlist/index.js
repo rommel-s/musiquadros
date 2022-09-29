@@ -5,7 +5,9 @@ import {
   FaMusic,
   FaYoutube,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./playlist.css";
+import CoverContainer from "../../components/cover-container";
 
 export default function Playlist() {
   function handleInput(e) {
@@ -24,15 +26,14 @@ export default function Playlist() {
     <>
       <header className="app-header">
         <button id="previous">
-          <FaHome size={25} color="#fff" />
+          <Link to="/">
+            <FaHome size={25} color="#fff" />
+          </Link>
         </button>
       </header>
 
       <div className="app">
-        <div id="cover-container">
-          <div id="cover"></div>
-          <p id="playlist-name">Nome da playlist</p>
-        </div>
+        <CoverContainer />
 
         <div className="straming-options">
           <p>Gostaria de ouvir por onde?</p>

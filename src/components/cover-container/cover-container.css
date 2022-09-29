@@ -1,0 +1,23 @@
+#cover-container {
+  margin-bottom: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#cover-container:hover {
+  background-color: blue;
+}
+
+#cover {
+  width: 9em;
+  height: 9em;
+  background-color: #d4d4d4;
+}
+
+#playlist-name {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 8px;
+}
